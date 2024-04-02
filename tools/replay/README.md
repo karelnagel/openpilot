@@ -17,10 +17,10 @@ tools/replay/replay 'a2a0ccea32023010|2023-07-27--13-01-19'
 tools/replay/replay --demo
 
 # watch the replay with the normal openpilot UI
-cd selfdrive/ui && ./ui
+selfdrive/ui/ui
 
 # or try out a debug visualizer:
-python replay/ui.py
+python tools/replay/ui.py
 ```
 
 ## usage
