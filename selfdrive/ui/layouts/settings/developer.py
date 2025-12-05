@@ -57,7 +57,7 @@ class DeveloperLayout(Widget):
       description="",
       initial_state=self._params.get_bool("JoystickDebugMode"),
       callback=self._on_joystick_debug_mode,
-      enabled=ui_state.is_offroad,
+      # enabled=ui_state.is_offroad,
     )
 
     self._long_maneuver_toggle = toggle_item(
